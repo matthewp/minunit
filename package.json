@@ -1,0 +1,28 @@
+{
+  "name": "minunit",
+  "version": "1.0.0",
+  "description": "A minimal QUnit-like testing framework that only records results",
+  "main": "minunit.js",
+  "scripts": {
+    "test": "testee test/test.html --browsers firefox --reporter Spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewp/minunit.git"
+  },
+  "keywords": [
+    "QUnit",
+    "testing"
+  ],
+  "author": "Matthew Phillips",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/matthewp/minunit/issues"
+  },
+  "homepage": "https://github.com/matthewp/minunit#readme",
+  "devDependencies": {
+    "steal": "^0.12.3",
+    "steal-qunit": "^0.1.1",
+    "testee": "^0.2.2"
+  }
+}
