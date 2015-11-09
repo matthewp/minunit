@@ -78,10 +78,11 @@ MinUnit = {
 		if(test) {
 			test.results.push({ message: message, assertion: assertion });
 		}
+    return assertion;
 	},
 
 	equal: function(expected, actual, message){
-		MinUnit.ok(expected === actual, message);
+		return MinUnit.ok(expected === actual, message);
 	},
 
 	done: function(fn){
