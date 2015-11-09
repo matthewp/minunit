@@ -1,6 +1,6 @@
 {
   "name": "minunit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A minimal QUnit-like testing framework that only records results",
   "main": "minunit.js",
   "scripts": {
